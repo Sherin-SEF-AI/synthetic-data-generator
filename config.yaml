@@ -1,0 +1,21 @@
+# Hugging Face Spaces Configuration
+title: "Synthetic Data Generator"
+emoji: "🎲"
+colorFrom: "blue"
+colorTo: "purple"
+sdk: "gradio"
+sdk_version: "5.49.1"
+app_file: "app.py"
+pinned: false
+license: "apache-2.0"
+tags:
+  - synthetic-data
+  - data-generation
+  - privacy
+  - machine-learning
+  - data-science
+  - testing
+  - development
+  - faker
+  - gradio
+  - python

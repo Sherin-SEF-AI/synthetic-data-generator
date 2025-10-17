@@ -1,0 +1,18 @@
+*.py linguist-language=Python
+*.md linguist-language=Markdown
+*.txt linguist-language=Text
+*.json linguist-language=JSON
+*.csv linguist-language=CSV
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+*.sh linguist-language=Shell
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+# Large files that should be tracked with Git LFS
+*.parquet filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.safetensors filter=lfs diff=lfs merge=lfs -text

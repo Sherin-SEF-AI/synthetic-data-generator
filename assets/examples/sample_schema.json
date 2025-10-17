@@ -1,0 +1,66 @@
+{
+  "name": "Sample Customer Schema",
+  "description": "A sample schema for customer data generation",
+  "fields": [
+    {
+      "name": "customer_id",
+      "type": "integer",
+      "subtype": "id",
+      "description": "Unique customer identifier",
+      "constraints": {
+        "unique": true,
+        "min_val": 1,
+        "max_val": 999999
+      }
+    },
+    {
+      "name": "first_name",
+      "type": "text",
+      "subtype": "name",
+      "description": "Customer first name",
+      "constraints": {
+        "null_percentage": 2
+      }
+    },
+    {
+      "name": "last_name",
+      "type": "text",
+      "subtype": "name",
+      "description": "Customer last name",
+      "constraints": {
+        "null_percentage": 2
+      }
+    },
+    {
+      "name": "email",
+      "type": "text",
+      "subtype": "email",
+      "description": "Customer email address",
+      "constraints": {
+        "unique": true,
+        "null_percentage": 1
+      }
+    },
+    {
+      "name": "age",
+      "type": "integer",
+      "subtype": "age",
+      "description": "Customer age",
+      "constraints": {
+        "min_val": 18,
+        "max_val": 80,
+        "null_percentage": 2
+      }
+    },
+    {
+      "name": "signup_date",
+      "type": "date",
+      "subtype": "signup_date",
+      "description": "Customer signup date",
+      "constraints": {
+        "start_date": "2020-01-01",
+        "end_date": "2024-12-31"
+      }
+    }
+  ]
+}
