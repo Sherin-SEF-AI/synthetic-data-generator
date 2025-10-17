@@ -371,6 +371,26 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ---
 
+## 👤 Author
+
+**Sherin Joseph Roy**
+- Co-Founder & Head of Products at DeepMost AI
+- 🌐 [sherin-sef-ai.github.io](https://sherin-sef-ai.github.io/)
+- 🐦 [@SherinSEF](https://x.com/SherinSEF)
+- 💼 [LinkedIn](https://linkedin.com/in/sherin-roy-deepmost)
+- 📧 sherin.joseph2217@gmail.com
+
+**Learn More:**
+- 🌐 Website: [deepmostai.com](https://deepmostai.com)
+- 📝 Blog: [Notes by Sherin](https://notesbysherin.hashnode.dev)
+- 💼 LinkedIn: [DeepMost AI](https://linkedin.com/company/deepmost-ai)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
 **Made with ❤️ for the data community**
 
 *Generate realistic data. Protect privacy. Build better applications.*
